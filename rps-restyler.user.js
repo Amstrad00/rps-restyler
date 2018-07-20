@@ -44,10 +44,6 @@ i.fa { font-family: FontAwesome !important; }
 html, body { overflow-x: hidden !important; }
 body { background-color: ${black} !important; }
 
-/* change link colors */
-a:link {color: ${oldred} !important; background-color: transparent !important; }
-a:visited {color: ${red} !important; background-color: transparent !important; }
-
 /* restyle breaking section */
 .breaking { background-color: ${black} !important; padding: 0.5rem 1rem !important; font-size: 0.75rem !important; }
 .breaking p:before { content: "RIGHT NOW:"; font-size: 0.75rem; font-weight: bold; color: white; margin-right: 0.65rem; }
@@ -67,8 +63,12 @@ a:visited {color: ${red} !important; background-color: transparent !important; }
 .header-desktop { background-color: ${doubleblack} !important; height: 10rem !important; padding: 1.25rem !important; background: #21133F; color: #eee !important; border-bottom: 0px !important; }
 .header-desktop a { color: ${oldred} } !important;
 .header-desktop a.button { color: white !important; }
+.header-desktop .primary a:link {color: ${oldred} !important; background-color: transparent !important; }
+.header-desktop .primary a:visited {color: ${red} !important; background-color: transparent !important; }
 .header-desktop .primary { font-size: .95rem !important; }
 .header-desktop .secondary { font-size: .95rem !important; line-height: 1.2 !important; top: -.25rem !important; }
+.header-desktop .secondary a:link {color: ${oldred} !important; background-color: transparent !important; }
+.header-desktop .secondary a:visited {color: ${red} !important; background-color: transparent !important; }
 .header-desktop .search { width: 40% !important; top: 5.25rem !important; right: 0 !important; left: unset !important; }
 .header-desktop .search input { background: ${red} !important; border: 0 !important; color: ${white} !important; font-size: 0.825rem !important; }
 .header-desktop .search ::placeholder { color: ${searchPlaceholder}; }
@@ -82,6 +82,8 @@ a:visited {color: ${red} !important; background-color: transparent !important; }
 main { background-color: ${white} !important; padding-bottom: 0.75rem !important; }
 main .above { padding-right: 0 !important; }
 main .above .section-title { display: none !important; }
+main .above a:link {color: ${oldred} !important; background-color: transparent !important; }
+main .above a:visited {color: ${red} !important; background-color: transparent !important; }
 article.feature img.icon { filter:hue-rotate(25deg) brightness(85%) contrast(120%); left:-78px!important; }
 #comments { padding-left: 0 !important; }
 .comments-container { margin: 0 auto !important; }
