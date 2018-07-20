@@ -11,7 +11,7 @@ A userscript for tweaking the layout and style of [Rock Paper Shotgun](http://ww
 
 ## Screenshot
 
-![screenshot](https://raw.githubusercontent.com/Amstrad00/rps-restyler/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/Amstrad00/rps-restyler-darker/master/screenshot.png)
 
 ## License
 Please don't sue me Diaz
