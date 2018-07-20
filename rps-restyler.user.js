@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rock Paper Shotgun Restyler Modified
 // @namespace    https://github.com/Amstrad00/rps-restyler
-// @version      1.5
+// @version      1.5.1
 // @description  Tweaks the styling of Rock Paper Shotgun to be more pleasant.
 // @author       Amstrad00
 // @match        https://www.rockpapershotgun.com/*
@@ -94,8 +94,8 @@ article.feature + script + div>p a { color: ${red} !important; }
 
 /* tweak and improve comment coloring */
 .blog-post .images img, .button { color:${white} border-color: ${oldred} !important; background-color: ${oldred} !important; }
-.comment>.details a:link {color: ${oldred} !important; background-color: transparent !important; }
-.comment>.details  a:visited {color: ${red} !important; background-color: transparent !important; }
+.blog-post a:link {color: ${oldred} !important; background-color: transparent !important; }
+.blog-post a:visited {color: ${red} !important; background-color: transparent !important; }
 .comment>.details .username { color: black !important; }
 .comment>.details .button { border-color: ${oldred} !important; background-color: ${oldred} !important; }
 .comment>.details .button.outline { background-color: transparent !important; color: ${oldred} !important; }
