@@ -74,7 +74,7 @@ a:visited {color: ${red} !important; background-color: transparent !important; }
 .header-desktop .search ::placeholder { color: ${searchPlaceholder}; }
 .header-desktop .search .button { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .header-desktop .account { right: 0 !important; width: auto !important; top: 0.5rem !important; border-color: ${red} !important; }
-.header-desktop .account .button { color: ${white} !important; background-color: ${oldred} }
+.header-desktop .account .button { color: ${white} !important; background-color: ${oldred} important! }
 .header-desktop .support-us { right: -1.25rem !important; width: 14rem !important; top: -3.25rem !important; font-weight: bold !important; padding: 0 !important; }
 .header-desktop .support-us .button { color: ${white} !important; background-color: ${oldred} !important; border-radius: 0 !important; font-size: 0.75rem !important; padding: 0.5rem 0 !important; height: 2rem; }
 
