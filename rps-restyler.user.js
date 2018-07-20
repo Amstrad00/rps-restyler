@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Rock Paper Shotgun Restyler Modified
-// @namespace    https://github.com/Amstrad00/rps-restyler
+// @namespace    https://github.com/Amstrad00/rps-restyler-darker
 // @version      1.5.5
 // @description  Tweaks the styling of Rock Paper Shotgun to be more pleasant.
 // @author       Amstrad00
