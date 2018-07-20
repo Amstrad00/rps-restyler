@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Rock Paper Shotgun Restyler Modified
 // @namespace    https://github.com/Amstrad00/rps-restyler-darker
-// @version      1.5.7
-// @description  Tweaks the styling of Rock Paper Shotgun to be more pleasant.
+// @version      1.5.8
+// @description  Tweaks the styling of Rock Paper Shotgun to be darker.
 // @author       Amstrad00
 // @match        https://www.rockpapershotgun.com/*
 // @grant        none
@@ -48,6 +48,8 @@ body { background-color: ${black} !important; }
 .breaking { background-color: ${black} !important; padding: 0.5rem 1rem !important; font-size: 0.75rem !important; }
 .breaking p:before { content: "RIGHT NOW:"; font-size: 0.75rem; font-weight: bold; color: white; margin-right: 0.65rem; }
 .breaking p { padding: 0 !important; color: ${black} !important; max-width: ${maxWidth} !important; }
+.breaking a:link {color: ${oldred} !important; background-color: transparent !important; }
+.breaking a:visited {color: ${red} !important; background-color: transparent !important; }
 
 /* rework header */
 .header-desktop a.logo {
