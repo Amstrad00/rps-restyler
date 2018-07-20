@@ -7,7 +7,7 @@ A userscript for tweaking the layout and style of [Rock Paper Shotgun](http://ww
 1.  Install [Tampermonkey](http://tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/get-it/).
 2.  Click the install link below.
 
-### [**INSTALL THE USERSCRIPT**](https://github.com/Amstrad00/rps-restyler/raw/master/rps-restyler.user.js)
+### [**INSTALL THE USERSCRIPT**](https://github.com/Amstrad00/rps-restyler-darker/raw/master/rps-restyler.user.js)
 
 ## Screenshot
 
