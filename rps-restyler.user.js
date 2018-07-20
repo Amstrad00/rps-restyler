@@ -94,8 +94,6 @@ article.feature + script + div>p a { color: ${red} !important; }
 
 /* tweak and improve comment coloring */
 .blog-post .images img, .button { color:${white} border-color: ${oldred} !important; background-color: ${oldred} !important; }
-.blog-post a:link {color: ${oldred} !important; background-color: transparent !important; }
-.blog-post a:visited {color: ${red} !important; background-color: transparent !important; }
 .comment>.details .username { color: black !important; }
 .comment>.details .button { border-color: ${oldred} !important; background-color: ${oldred} !important; }
 .comment>.details .button.outline { background-color: transparent !important; color: ${oldred} !important; }
