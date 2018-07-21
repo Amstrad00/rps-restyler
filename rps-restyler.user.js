@@ -39,6 +39,9 @@ i.fa { font-family: FontAwesome !important; }
 /* hide the top spotlight */
 .above .spotlight { display: none; }
 
+/* hide inline recommendations */
+.mormont-recommendations { display: none; }
+
 /* fix page width and background color */
 .page { width: ${1440} !important; }
 html, body { overflow-x: hidden !important; }
