@@ -24,7 +24,7 @@
     const breakingPurple = "#564380";
     const red = "#dd2e2e";
     const oldred = "#c1272c";
-    const white = "#FDFCFF";
+    const white = "#F1F0F2";
     const black = "#1a1a1a"
     const doubleblack = "#000000"
     const maxWidth = "1440px";
