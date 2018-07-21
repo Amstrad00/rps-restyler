@@ -98,8 +98,8 @@ article.feature .button, article.feature + script + div .button { background-col
 article.feature + script + div>p a { color: ${red} !important; }
 
 /* make buttons & tags red on premium articles */
-article.premium img.icon { filter:hue-rotate(25deg) brightness(85%) contrast(120%); }
-article.premium .button, article.feature + script + div .button { background-color: ${red} !important; }
+article.premium img.icon { filter:hue-rotate(75deg) brightness(85%) contrast(155%); }
+article.premium .button, article.premium + script + div .button { background-color: ${red} !important; }
 article.premium + script + div>p a { color: ${red} !important; }
 
 /* tweak and improve comment coloring */
