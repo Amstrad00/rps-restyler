@@ -24,7 +24,7 @@
     const breakingPurple = "#564380";
     const red = "#dd2e2e";
     const oldred = "#c1272c";
-    const white = "#FDFCFF";
+    const white = "#F1F0F2";
     const black = "#1a1a1a"
     const doubleblack = "#000000"
     const maxWidth = "1440px";
@@ -38,6 +38,9 @@ i.fa { font-family: FontAwesome !important; }
 
 /* hide the top spotlight */
 .above .spotlight { display: none; }
+
+/* hide inline recommendations */
+.mormont-recommendations { display: none; }
 
 /* fix page width and background color */
 .page { width: ${1440} !important; }
@@ -93,6 +96,11 @@ main .above a:visited {color: ${red} !important; background-color: transparent !
 article.feature img.icon { filter:hue-rotate(25deg) brightness(85%) contrast(120%); }
 article.feature .button, article.feature + script + div .button { background-color: ${red} !important; }
 article.feature + script + div>p a { color: ${red} !important; }
+
+/* make buttons & tags red on premium articles */
+article.premium img.icon { filter:hue-rotate(75deg) brightness(155%) contrast(120%); }
+article.premium .button, article.premium + script + div .button { background-color: ${red} !important; }
+article.premium + script + div>p a { color: ${red} !important; }
 
 /* tweak and improve comment coloring */
 main .below a:link {color: ${oldred} !important; background-color: transparent !important; }
