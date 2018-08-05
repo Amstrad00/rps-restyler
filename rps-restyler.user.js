@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rock Paper Shotgun Restyler Modified
 // @namespace    https://github.com/Amstrad00/rps-restyler-darker
-// @version      1.5.8
+// @version      1.5.9
 // @description  Tweaks the styling of Rock Paper Shotgun to be darker.
 // @author       Amstrad00
 // @match        https://www.rockpapershotgun.com/*
@@ -105,18 +105,18 @@ article.premium + script + div>p a { color: ${red} !important; }
 /* tweak and improve comment coloring */
 main .below a:link {color: ${oldred} !important; background-color: transparent !important; }
 main .below a:visited {color: ${red} !important; background-color: transparent !important; }
-.blog-post .images img, .button { color:${white} border-color: ${oldred} !important; background-color: ${oldred} !important; }
+.blog-post .images img, .button { color:${white} !important; border-color: ${oldred} !important; background-color: ${oldred} !important; }
 .comment>.details .username { color: black !important; }
-.comment>.details .button { border-color: ${oldred} !important; background-color: ${oldred} !important; }
+.comment>.details .button { border-color: ${oldred} !important; background-color: ${oldred} !important; color:${white} !important; }
 .comment>.details .button.outline { background-color: transparent !important; color: ${oldred} !important; }
 .comment.premium_user>.details .username, .comment.premium_user>.details .tag { color: ${purple} !important; }
-.comment.premium_user>.details .button { border-color: ${oldred} !important; background-color: ${oldred} !important; }
+.comment.premium_user>.details .button { border-color: ${oldred} !important; background-color: ${oldred} !important; color:${white} !important; }
 .comment.premium_user>.details .button.outline { background-color: transparent !important; color: ${oldred} !important; }
 .comment.premium_user.administrator>.details .tag { display: none; }
 .comment.administrator { border-color: ${oldred} !important; }
 .comment.administrator>.details .username { color: ${oldred} !important; }
 .comment.administrator>.details .username:after { content: "(RPS Staff)"; font-weight: normal; margin-left: 0.25rem; }
-.comment.administrator>.details .button { border-color: ${oldred} !important; background-color: ${oldred} !important; }
+.comment.administrator>.details .button { border-color: ${oldred} !important; background-color: ${oldred} !important; color:${white} !important; }
 .comment.administrator>.details .button.outline { background-color: transparent !important; color: ${oldred} !important; }
 
 
