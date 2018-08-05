@@ -34,7 +34,7 @@
 i.fa { font-family: FontAwesome !important; }
 
 /* hide ad sections and adblock banner */
-.leaderboards, .page>aside, .billboard-container, #recommendations, div[id^="sp_message"], div[class^=sp_veil] { display: none !important; }
+.support-us-promo, .leaderboards, .page>aside, .billboard-container, #recommendations, div[id^="sp_message"], div[class^=sp_veil] { display: none !important; }
 
 /* hide the top spotlight */
 .above .spotlight { display: none; }
