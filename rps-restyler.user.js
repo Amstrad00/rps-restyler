@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rock Paper Shotgun Restyler Modified
 // @namespace    https://github.com/Amstrad00/rps-restyler-darker
-// @version      1.5.9
+// @version      1.5.10
 // @description  Tweaks the styling of Rock Paper Shotgun to be darker.
 // @author       Amstrad00
 // @match        https://www.rockpapershotgun.com/*
@@ -94,12 +94,12 @@ main .above a:visited {color: ${red} !important; background-color: transparent !
 
 /* make buttons & tags red on featured articles */
 article.feature img.icon { filter:hue-rotate(25deg) brightness(85%) contrast(120%); }
-article.feature .button, article.feature + script + div .button { background-color: ${red} !important; }
+article.feature .button, article.feature + script + div .button { color:${white} !important; background-color: ${red} !important; }
 article.feature + script + div>p a { color: ${red} !important; }
 
 /* make buttons & tags red on premium articles */
 article.premium img.icon { filter:hue-rotate(75deg) brightness(155%) contrast(120%); }
-article.premium .button, article.premium + script + div .button { background-color: ${red} !important; }
+article.premium .button, article.premium + script + div .button { color:${white} !important; background-color: ${red} !important; }
 article.premium + script + div>p a { color: ${red} !important; }
 
 /* tweak and improve comment coloring */
